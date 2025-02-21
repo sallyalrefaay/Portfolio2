@@ -1,0 +1,161 @@
+.container-1 {
+    height: 90vh;
+    margin-top: 80px;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("/public/assets/image/Lines.svg");
+    background-size: cover;
+}
+.container-1 .desc{
+    width: 50%;
+    height: 100%;
+    padding: 90px 0 30px;
+    color: #29353C;
+    background: radial-gradient(#b8d0ee 0.5%, transparent 70% );
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-1 .desc.visible {
+    opacity: 1;
+}
+
+.container-1 .desc h2{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.container-1 .desc h2 span{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.container-1 .desc p{
+    margin: 30px 0;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-1 .desc button{
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 2px #29353C;
+}
+
+.container-1 .desc button a{
+    color: #29353C;
+}
+
+.container-1 .desc button:hover{
+    background-color: #0C96E2;
+}
+
+.container-1 .desc button a:hover{
+    color: #FFFFFF;
+}
+
+.container-1 .myImg{
+    width: 400px;
+    height: 400px;
+    background-color: #DFE1FA;
+    border-radius: 50%;
+    position: relative;
+}
+
+.container-1 .myImg img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+
+.container-1 .myImg .purple{
+    width: 55px;
+    height: 55px;
+    border-radius: 16px;
+    rotate: 33deg;
+    background-color: #583FBC;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.container-1 .myImg .purpleCircle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #7B55EC;
+    position: absolute;
+    bottom: 7%;
+    right: 17%;
+}
+
+.container-1 .myImg .blue{
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    rotate: -37deg;
+    background-color: #0C96E2;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.container-1 .myImg .blueCircle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0C96E2;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+@media screen and (max-width:992px) {
+    .container-1{
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 20px 15px;
+        gap: 20px;
+        height: max-content;
+    }
+    .container-1 .desc{
+        padding:0;
+        width: 100%;
+        margin-top: 20px;
+        height: max-content;
+    }
+    .container-1 .desc h2{
+        margin-top: 25px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container-1 .desc h2 span{
+        font-size: 22px;
+    }
+    
+    .container-1 .desc p{
+        margin: 20px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container-1 .myImg{
+        width: 260px; 
+        height: 260px;
+    }
+    .container-1 .myImg img{
+        width: 260px;
+        height: 260px;
+        position: relative;
+    }
+}

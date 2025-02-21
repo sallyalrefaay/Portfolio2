@@ -1,0 +1,141 @@
+.NavbarItems {
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    font-family: "Poppins", sans-serif;
+}
+
+.NavbarItems img{
+    rotate: -10deg;
+}
+
+.NavbarItems h1{
+    cursor: pointer;
+}
+
+.dark-mode {
+background-color: #29353C;
+color: #E6E6E6;
+}
+
+.dark-mode .navbar-logo,
+.dark-mode .menu-icons,
+.dark-mode .navbar-menu,
+.dark-mode .theme-toggle,
+.dark-mode .nav-links ,
+.dark-mode .container-1 .desc,
+.dark-mode .about .information,
+.dark-mode .educationCourses .container2 h2,
+.dark-mode .educationCourses .container2 h3,
+.dark-mode .educationCourses .container2 p,
+.dark-mode .educationCourses h1,
+.dark-mode .projectsInformation .details p,
+.dark-mode .contact,
+.dark-mode .contactNum,
+.dark-mode .contactInfo .contactNum .number a,
+.dark-mode .copyRight,
+.dark-mode .copyRight .socialMedia a,
+.dark-mode .projectsInformation .details a,
+.dark-mode .projectsInformation .details button,
+.dark-mode .portfolio{
+color: #E6E6E6;
+}
+.dark-mode .desc,
+.dark-mode .educationSection .card,
+.dark-mode .coursesSection .card-2{
+    color: #29353C;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style: none;
+    align-items: center;
+}
+.nav-links {
+    text-decoration: none;
+    color: #29353C;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-links:hover {
+    color:#0C96E2;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+.nav-links-mobile {
+    display: none;
+}
+
+button{
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #0C96E2;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu-icons {
+    display: none;
+}
+@media  screen and (max-width: 850px) {
+    .NavbarItems {
+        z-index: 999;
+        margin-top: 0;
+        padding: 15px;
+    }
+    .NavbarItems .logo{
+        width: 90px;
+        height: 45px;
+    }
+    .navbar-menu {
+        padding: 80px 0 30px 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #44576D;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 100;
+        border-radius: 12px;
+    }
+    .navbar-menu.active {
+        left: 0;
+        opacity: 90;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-links {
+        display: block;
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .nav-links:hover {
+        background-color: #AAC7D8;
+        transition: none;
+    }
+
+
+}
