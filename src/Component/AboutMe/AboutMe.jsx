@@ -5,16 +5,16 @@ return (
 <>
 <div className="about" id="about">
     <div className="pic">
-        <img className="circle" src="/Portfolio2/assets/image/Circles.png"/>
-        <img className="html skill" src="/Portfolio2/assets/image/html.png" alt="" />
-        <img className="css skill" src="/Portfolio2/assets/image/css.png" alt="" />
-        <img className="js skill" src="/Portfolio2/assets/image/js.png" alt="" />
-        <img className="php skill" src="/Portfolio2/assets/image/php.png" alt="" />
-        <img className="sql skill" src="/Portfolio2/assets/image/sql.png" alt="" />
-        <img className="bootstrap skill" src="/Portfolio2/assets/image/bootstrap.png" alt="" />
-        <img className="tailwind skill" src="/Portfolio2/assets/image/tailwind.png" alt="" />
-        <img className="react skill" src="/Portfolio2/assets/image/react.png" alt="" />
-        <img className="github skill" src="/Portfolio2/assets/image/github.png" alt="" />
+        <img className="circle" src="/portfolio/assets/image/Circles.png"/>
+        <img className="html skill" src="/portfolio/assets/image/html.png" alt="" />
+        <img className="css skill" src="/portfolio/assets/image/css.png" alt="" />
+        <img className="js skill" src="/portfolio/assets/image/js.png" alt="" />
+        <img className="php skill" src="/portfolio/assets/image/php.png" alt="" />
+        <img className="sql skill" src="/portfolio/assets/image/sql.png" alt="" />
+        <img className="bootstrap skill" src="/portfolio/assets/image/bootstrap.png" alt="" />
+        <img className="tailwind skill" src="/portfolio/assets/image/tailwind.png" alt="" />
+        <img className="react skill" src="/portfolio/assets/image/react.png" alt="" />
+        <img className="github skill" src="/portfolio/assets/image/github.png" alt="" />
     </div>
     <div className="information">
         <h1>About Me</h1>
