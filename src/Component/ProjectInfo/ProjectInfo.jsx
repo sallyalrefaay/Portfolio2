@@ -58,7 +58,7 @@ const ProjectsInfo = () => {
         {/* <div className="projectsInformation">
             <div className="project">
                 <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-1.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-1.png" alt="" />
                 </div>
                 <div className="details">
                     <h2>K2skiing</h2>
@@ -75,12 +75,12 @@ const ProjectsInfo = () => {
                     <a href="https://sallyalrefaay.github.io/Flora/" target="_blank">Project Demo<button><i className="fas fa-eye"></i></button></a>
                 </div>
                 <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-2.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-2.png" alt="" />
                 </div>
             </div>
             <div className="project">
             <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-3.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-3.png" alt="" />
                 </div>
                 <div className="details">
                     <h2>Salla Store</h2>
@@ -98,12 +98,12 @@ const ProjectsInfo = () => {
                     <a href="https://sallyalrefaay.github.io/Edujar/" target="_blank">Project Demo<button><i className="fas fa-eye"></i></button></a>
                 </div>
                 <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-4.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-4.png" alt="" />
                 </div>
             </div>
             <div className="project">
             <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-5.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-5.png" alt="" />
                 </div>
                 <div className="details">
                     <h2>DashStack</h2>
@@ -122,7 +122,7 @@ const ProjectsInfo = () => {
                     <a href="https://sallyalrefaay.github.io/Home-Decoration/" target="_blank">Project Demo<button><i className="fas fa-eye"></i></button></a>
                 </div>
                 <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-6.png" alt="" />
+                    <img src="/Portfolio2/assets/image/project-6.png" alt="" />
                 </div>
             </div>
         </div> */}

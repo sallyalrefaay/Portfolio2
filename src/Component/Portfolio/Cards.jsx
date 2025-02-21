@@ -13,7 +13,7 @@ const Cards = ({ card }) => {
                                 <h3>{element.title}</h3>
                                 <p> {element.tools.join(", ")}</p>
                             </div>
-                            <Link to={`/Portfolio/${element.id}`} className="btn"><i className="fa-solid fa-up-right-from-square"></i></Link>
+                            <Link to={`/Portfolio2/${element.id}`} className="btn"><i className="fa-solid fa-up-right-from-square"></i></Link>
                         </div>
                     </div>
                 );

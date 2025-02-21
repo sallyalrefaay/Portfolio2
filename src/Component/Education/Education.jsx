@@ -12,7 +12,7 @@ const Education = () => {
         <div className="educationCourses" id="education">
             <h4>Education and Courses</h4>
             <h1>Education & Courses</h1>
-            <img className="eduBg" src="/portfolio/assets/image/edu-bg.svg" alt="" />
+            <img className="eduBg" src="/Portfolio2/assets/image/edu-bg.svg" alt="" />
             <div className="container2">
             <div className="coursesSection">
                     <div className="card-2">
@@ -71,7 +71,7 @@ const Education = () => {
                 </div>
             </div>
             <button onClick={scrollToTop}><i className="fas fa-arrow-up"></i></button>
-            <img className="eduBg-2" src="/portfolio/assets/image/edu-bg.svg" alt="" />
+            <img className="eduBg-2" src="/Portfolio2/assets/image/edu-bg.svg" alt="" />
         </div>
         <div className="contactMe">
             <div className="tryMe">
